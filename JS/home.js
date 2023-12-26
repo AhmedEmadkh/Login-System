@@ -38,7 +38,7 @@ function validateName(text) {
 // *******************************************************************
 // Validate URL
 function validateURL(url) {
-  var validated = /^((ftp|http|https):\/\/)?([\w-]+(\.[\w-]+)+)(\/[\w-]*)*$/;
+  var validated = /^((ftp|http|https):\/\/)?([\w-]+(\.[\w-]+)+)(\/[\w-]*)*(\?[\w\-%&=]*)?$/;
   return validated.test(url);
 }
 

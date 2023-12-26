@@ -90,7 +90,7 @@ function userFound(user) {
 // Name Validation
 function validateName(text) {
   nameSignUp.classList.remove("is-valid", "is-not-valid");
-  if (text.length >= 4) {
+  if (text.length >= 3) {
     nameSignUp.classList.add("is-valid");
     return true; // Validation successful
   } else {
